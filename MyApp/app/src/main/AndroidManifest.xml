@@ -11,28 +11,37 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
-
-        <!-- Splash should be the LAUNCHER -->
+        <activity
+            android:name=".Technology"
+            android:exported="false" />
+        <activity
+            android:name=".Health"
+            android:exported="false" />
+        <activity
+            android:name=".Physics"
+            android:exported="false" />
+        <activity
+            android:name=".Maths"
+            android:exported="false" />
+        <activity
+            android:name=".BegaliHistory"
+            android:exported="false" />
+        <activity
+            android:name=".ScienceFiction"
+            android:exported="false" /> <!-- Splash should be the LAUNCHER -->
         <activity
             android:name=".Splash"
             android:exported="true"
             android:theme="@style/Theme.MyApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-
-
-
-        </activity>
-
-        <!-- Your main app activity -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Your main app activity -->
         <activity
             android:name=".MainActivity"
-            android:exported="false"
-            />
-
+            android:exported="false" />
         <activity
             android:name=".Home"
             android:exported="false" />
