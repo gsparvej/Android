@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
             android:name=".Technology"
             android:exported="false" />
         <activity
@@ -28,7 +31,7 @@
             android:exported="false" />
         <activity
             android:name=".ScienceFiction"
-            android:exported="false" /> <!-- Splash should be the LAUNCHER -->
+            android:exported="false" />
         <activity
             android:name=".Splash"
             android:exported="true"
@@ -38,7 +41,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <!-- Your main app activity -->
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="false" />

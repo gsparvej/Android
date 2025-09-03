@@ -49,14 +49,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title"
         app:layout_constraintVertical_bias="0.0" />
+
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="vertical"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.02">
 
         <!-- First Row -->
@@ -64,17 +66,17 @@
             android:id="@+id/first"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:layout_marginTop="5dp"
+            android:orientation="horizontal"
             android:weightSum="2">
 
             <Button
                 android:id="@+id/btnScienceFik"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="10dp"
+                android:layout_weight="1"
                 android:text="সায়েন্স ফিকশন"
                 android:textColor="@color/black" />
 
@@ -82,9 +84,9 @@
                 android:id="@+id/btnBengali"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="20dp"
+                android:layout_weight="1"
                 android:text="সাহিত্য"
                 android:textColor="@color/black" />
         </LinearLayout>
@@ -119,7 +121,6 @@
         </LinearLayout>
 
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -128,7 +129,7 @@
             android:weightSum="2">
 
             <Button
-                android:id="@+id/btnHelth"
+                android:id="@+id/btnHealth"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"

@@ -7,14 +7,10 @@ import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class Home extends AppCompatActivity {
 
-    private Button btnScienceFic , btnBengaliHis , btnMaths , btnPhy , btnHealth , btnTech;
-
+    private Button btnScienceFic, btnBengaliHis, btnMaths, btnPhy, btnHealth, btnTech;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,11 +18,15 @@ public class Home extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_home);
 
+        // Initialize all buttons
         btnScienceFic = findViewById(R.id.btnScienceFik);
         btnBengaliHis = findViewById(R.id.btnBengali);
         btnMaths = findViewById(R.id.btnMaths);
         btnPhy = findViewById(R.id.btnPhy);
+        btnHealth = findViewById(R.id.btnHealth);
+        btnTech = findViewById(R.id.btnTech);
 
+        // Set click listeners
         btnScienceFic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -34,8 +34,6 @@ public class Home extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
 
         btnBengaliHis.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,8 +43,6 @@ public class Home extends AppCompatActivity {
             }
         });
 
-
-
         btnMaths.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -54,8 +50,6 @@ public class Home extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
 
         btnPhy.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,8 +67,6 @@ public class Home extends AppCompatActivity {
             }
         });
 
-
-
         btnTech.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -82,14 +74,5 @@ public class Home extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
-
-
-
-
-
     }
-
-
 }

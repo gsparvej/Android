@@ -30,7 +30,7 @@ public class Splash extends AppCompatActivity {
             }
             else {
                 handler.postDelayed(() -> {
-                    startActivity(new Intent(getApplicationContext(),Home.class));
+                    startActivity(new Intent(getApplicationContext(), Home.class));
                     finish();
                 },2000);
 
