@@ -24,256 +24,113 @@
             android:padding="20dp"
             android:gravity="center_horizontal">
 
+            <!-- Repeatable Button Template -->
             <!-- পাটিগণিত -->
             <LinearLayout
                 android:id="@+id/btnArithmetic"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:orientation="vertical"
-                android:padding="12dp"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true">
-
+                style="@style/StyledButton">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="পাটিগণিত (Arithmetic)"
-                    android:textSize="18sp"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
-
+                    style="@style/ButtonTitle"
+                    android:text="পাটিগণিত (Arithmetic)" />
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="সূত্র, শর্টকাট"
-                    android:textSize="14sp"
-                    android:textColor="#666666" />
+                    style="@style/ButtonSubtitle"
+                    android:text="সূত্র, শর্টকাট" />
             </LinearLayout>
 
             <!-- বীজগণিত -->
             <LinearLayout
                 android:id="@+id/btnAlgebra"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:orientation="vertical"
-                android:padding="12dp"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true">
-
+                style="@style/StyledButton">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="বীজগণিত (Algebra)"
-                    android:textSize="18sp"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
-
+                    style="@style/ButtonTitle"
+                    android:text="বীজগণিত (Algebra)" />
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="সূত্র, শর্টকাট"
-                    android:textSize="14sp"
-                    android:textColor="#666666" />
+                    style="@style/ButtonSubtitle"
+                    android:text="সূত্র, শর্টকাট" />
             </LinearLayout>
 
             <!-- সূচক -->
             <LinearLayout
                 android:id="@+id/btnIndex"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:orientation="vertical"
-                android:padding="12dp"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true">
-
+                style="@style/StyledButton">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="সূচক (Index)"
-                    android:textSize="18sp"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
-
+                    style="@style/ButtonTitle"
+                    android:text="সূচক (Index)" />
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="সূত্র, শর্টকাট"
-                    android:textSize="14sp"
-                    android:textColor="#666666" />
+                    style="@style/ButtonSubtitle"
+                    android:text="সূত্র, শর্টকাট" />
             </LinearLayout>
 
             <!-- লগারিদম -->
             <LinearLayout
                 android:id="@+id/btnLogarithm"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:orientation="vertical"
-                android:padding="12dp"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true">
-
+                style="@style/StyledButton">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="লগারিদম (Logarithm)"
-                    android:textSize="18sp"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
-
+                    style="@style/ButtonTitle"
+                    android:text="লগারিদম (Logarithm)" />
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="সূত্র, শর্টকাট"
-                    android:textSize="14sp"
-                    android:textColor="#666666" />
+                    style="@style/ButtonSubtitle"
+                    android:text="সূত্র, শর্টকাট" />
             </LinearLayout>
 
             <!-- ধারা -->
             <LinearLayout
                 android:id="@+id/btnSeries"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:orientation="vertical"
-                android:padding="12dp"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true">
-
+                style="@style/StyledButton">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="ধারা (Series)"
-                    android:textSize="18sp"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
-
+                    style="@style/ButtonTitle"
+                    android:text="ধারা (Series)" />
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="সূত্র, শর্টকাট"
-                    android:textSize="14sp"
-                    android:textColor="#666666" />
+                    style="@style/ButtonSubtitle"
+                    android:text="সূত্র, শর্টকাট" />
             </LinearLayout>
 
             <!-- ত্রিকোণমিতি -->
             <LinearLayout
                 android:id="@+id/btnTrigonometry"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:orientation="vertical"
-                android:padding="12dp"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true">
-
+                style="@style/StyledButton">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="ত্রিকোণমিতি (Trigonometry)"
-                    android:textSize="18sp"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
-
+                    style="@style/ButtonTitle"
+                    android:text="ত্রিকোণমিতি (Trigonometry)" />
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="সূত্র, শর্টকাট"
-                    android:textSize="14sp"
-                    android:textColor="#666666" />
+                    style="@style/ButtonSubtitle"
+                    android:text="সূত্র, শর্টকাট" />
             </LinearLayout>
 
             <!-- পরিমিতি -->
             <LinearLayout
                 android:id="@+id/btnMeasurement"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:orientation="vertical"
-                android:padding="12dp"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true">
-
+                style="@style/StyledButton">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="পরিমিতি (Measurement)"
-                    android:textSize="18sp"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
-
+                    style="@style/ButtonTitle"
+                    android:text="পরিমিতি (Measurement)" />
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="সূত্র, শর্টকাট"
-                    android:textSize="14sp"
-                    android:textColor="#666666" />
+                    style="@style/ButtonSubtitle"
+                    android:text="সূত্র, শর্টকাট" />
             </LinearLayout>
 
             <!-- জ্যামিতি -->
             <LinearLayout
                 android:id="@+id/btnGeometry"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:orientation="vertical"
-                android:padding="12dp"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true">
-
+                style="@style/StyledButton">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="জ্যামিতি (Geometry)"
-                    android:textSize="18sp"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
-
+                    style="@style/ButtonTitle"
+                    android:text="জ্যামিতি (Geometry)" />
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="সূত্র, শর্টকাট"
-                    android:textSize="14sp"
-                    android:textColor="#666666" />
+                    style="@style/ButtonSubtitle"
+                    android:text="সূত্র, শর্টকাট" />
             </LinearLayout>
 
             <!-- পরিসংখ্যান -->
             <LinearLayout
                 android:id="@+id/btnStatistics"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:orientation="vertical"
-                android:padding="12dp"
-                android:background="?android:selectableItemBackground"
-                android:clickable="true"
-                android:focusable="true">
-
+                style="@style/StyledButton">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="পরিসংখ্যান (Statistics)"
-                    android:textSize="18sp"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
-
+                    style="@style/ButtonTitle"
+                    android:text="পরিসংখ্যান (Statistics)" />
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="সূত্র, শর্টকাট"
-                    android:textSize="14sp"
-                    android:textColor="#666666" />
+                    style="@style/ButtonSubtitle"
+                    android:text="সূত্র, শর্টকাট" />
             </LinearLayout>
 
         </LinearLayout>
