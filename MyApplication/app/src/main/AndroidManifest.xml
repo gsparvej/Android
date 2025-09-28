@@ -12,6 +12,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".Statistics"
+            android:exported="false" />
+        <activity
+            android:name=".Geometry"
+            android:exported="false" />
+        <activity
+            android:name=".Measurement"
+            android:exported="false" />
+        <activity
+            android:name=".Trigonometry"
+            android:exported="false" />
+        <activity
+            android:name=".Series"
+            android:exported="false" />
+        <activity
+            android:name=".Logarithm"
+            android:exported="false" />
+        <activity
+            android:name=".Index"
+            android:exported="false" />
+        <activity
+            android:name=".Algebra"
+            android:exported="false" />
+        <activity
+            android:name=".Arithmetic"
+            android:exported="false" />
+        <activity
             android:name=".Home"
             android:exported="false" />
         <activity
